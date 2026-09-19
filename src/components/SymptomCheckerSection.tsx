@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Stethoscope, AlertTriangle, Clock, ArrowRight, ShieldCheck, CheckCircle2, Calendar, Phone, Sparkles, Zap } from 'lucide-react';
+import { Stethoscope, Clock, ArrowRight, ShieldCheck, CheckCircle2, Calendar, Phone, } from 'lucide-react';
 
 interface SymptomCheckerProps {
   onOpenBooking: (treatmentId?: string) => void;

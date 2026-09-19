@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, ShieldCheck, MapPin, CheckCircle2, Phone, Sparkles, Star, Award, Clock, ArrowRight, Activity, Check } from 'lucide-react';
+import { Calendar, ShieldCheck, MapPin, Phone, Sparkles, Star, Award, Clock, ArrowRight, Check } from 'lucide-react';
 import { CLINIC_INFO, TREATMENTS } from '../data/treatments';
 
 interface HeroProps {

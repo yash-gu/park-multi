@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, Quote, CheckCircle2, MessageSquare, ThumbsUp } from 'lucide-react';
+import { Star, Quote, CheckCircle2, ThumbsUp } from 'lucide-react';
 import { TESTIMONIALS } from '../data/patientData';
 
 interface TestimonialsProps {

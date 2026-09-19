@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageCircle, X, Sparkles, Send } from 'lucide-react';
+import { X, Send } from 'lucide-react';
 
 interface WhatsAppButtonProps {
   phoneNumber?: string;

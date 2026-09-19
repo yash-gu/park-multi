@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Calendar, Clock, CheckCircle2, User, Phone, Mail, FileText, AlertCircle, MessageCircle, Send } from 'lucide-react';
+import { X, Calendar, Clock, CheckCircle2, User, Phone, Mail, AlertCircle, Send } from 'lucide-react';
 import { TREATMENTS, CLINIC_INFO } from '../data/treatments';
 import { AppointmentFormData } from '../types';
 

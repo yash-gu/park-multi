@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Clock, Phone, Mail, QrCode, Camera, Share2, ArrowUpRight } from 'lucide-react';
+import { MapPin, Clock, Phone, QrCode, Camera, Share2, } from 'lucide-react';
 import { CLINIC_INFO } from '../data/treatments';
 import { ParkDentalLogo } from './ParkDentalLogo';
 

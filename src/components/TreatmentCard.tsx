@@ -36,7 +36,7 @@ import {
   Siren,
   Check,
   ChevronRight,
-  LucideProps,
+  
 } from 'lucide-react';
 import { Treatment } from '../types';
 

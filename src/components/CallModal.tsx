@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Phone, MessageSquare, Clock, MapPin, AlertTriangle, ShieldAlert } from 'lucide-react';
+import { X, Phone, MessageSquare, Clock, MapPin, ShieldAlert } from 'lucide-react';
 import { CLINIC_INFO } from '../data/treatments';
 
 interface CallModalProps {

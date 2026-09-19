@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Award, Sparkles, Microchip, Flame, Droplets, Wind, CheckCircle2 } from 'lucide-react';
+import { ShieldCheck, Award, Flame, Droplets, Wind, CheckCircle2 } from 'lucide-react';
 
 export const ClinicStandardsSection: React.FC = () => {
   return (

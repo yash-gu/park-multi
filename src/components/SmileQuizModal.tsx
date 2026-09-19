@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Sparkles, CheckCircle2, ArrowRight, ArrowLeft, Calendar, HelpCircle } from 'lucide-react';
+import { X, Sparkles, CheckCircle2, ArrowRight, ArrowLeft, Calendar, } from 'lucide-react';
 import { TREATMENTS } from '../data/treatments';
 
 interface SmileQuizModalProps {
@@ -15,7 +15,7 @@ export const SmileQuizModal: React.FC<SmileQuizModalProps> = ({
 }) => {
   const [step, setStep] = useState<number>(1);
   const [primaryConcern, setPrimaryConcern] = useState<string>('');
-  const [urgency, setUrgency] = useState<string>('');
+
 
   if (!isOpen) return null;
 

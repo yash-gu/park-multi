@@ -24,7 +24,7 @@ import {
   ArrowRight,
   HeartPulse,
 } from 'lucide-react';
-import { ORAL_CARE_CATEGORIES, DAILY_CHECKLIST, CareCategory, OralCareTip } from '../data/oralCareData';
+import { ORAL_CARE_CATEGORIES, DAILY_CHECKLIST, } from '../data/oralCareData';
 
 interface OralCareSectionProps {
   onOpenBooking: () => void;

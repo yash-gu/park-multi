@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Sparkles, Filter, CheckCircle2 } from 'lucide-react';
+import { Search, Sparkles, Filter, } from 'lucide-react';
 import { Treatment, TreatmentCategory } from '../types';
 import { CATEGORIES, CATEGORY_DESCRIPTIONS, TREATMENTS } from '../data/treatments';
 import { TreatmentCard } from './TreatmentCard';

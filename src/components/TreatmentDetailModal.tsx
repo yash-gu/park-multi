@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Calendar, Check, Clock, ShieldCheck, Sparkles, AlertCircle } from 'lucide-react';
+import { X, Calendar, Check, Clock, ShieldCheck, AlertCircle } from 'lucide-react';
 import { Treatment } from '../types';
 
 interface TreatmentDetailModalProps {
