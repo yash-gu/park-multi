@@ -7,7 +7,7 @@ interface WhatsAppButtonProps {
 }
 
 export const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({
-  phoneNumber = '918287417016',
+  phoneNumber = '919929666041',
   doctorName = 'Park Dental Clinic',
 }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,7 +57,7 @@ export const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({
           {/* Body Preview */}
           <div className="p-4 bg-[#E5DDD5]/30 space-y-3">
             <div className="bg-white p-3 rounded-xl rounded-tl-none shadow-sm text-xs text-slate-700 border border-slate-100 max-w-[88%]">
-              👋 Namaste! Direct WhatsApp line to <strong>{doctorName}</strong> (+91 8287417016). Ask any dental query or book an instant consultation.
+              👋 Namaste! Direct WhatsApp line to <strong>{doctorName}</strong> (+91 9929666041). Ask any dental query or book an instant consultation.
             </div>
 
             <form onSubmit={handleSendMessage} className="space-y-2 pt-1">
@@ -85,7 +85,7 @@ export const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({
         {/* Hover Tooltip Label */}
         <div className="hidden group-hover:flex items-center gap-2 mr-3 bg-slate-900 text-white text-xs font-semibold px-3 py-2 rounded-xl shadow-xl whitespace-nowrap animate-in fade-in slide-in-from-right-2">
           <span className="w-2 h-2 rounded-full bg-[#25D366] animate-pulse"></span>
-          <span>Chat on WhatsApp (+91 8287417016)</span>
+          <span>Chat on WhatsApp (+91 9929666041)</span>
         </div>
 
         {/* Pulse Effect Ring */}

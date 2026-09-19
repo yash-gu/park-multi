@@ -79,7 +79,7 @@ export const CallModal: React.FC<CallModalProps> = ({ isOpen, onClose }) => {
             </a>
 
             <a
-              href={`https://wa.me/918287417016?text=Hello%20Park%20Dental%20Clinic%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation.`}
+              href={`https://wa.me/919929666041?text=Hello%20Park%20Dental%20Clinic%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation.`}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-3.5 px-4 rounded-xl font-bold text-sm transition-all flex items-center justify-between shadow-sm group active:scale-98"

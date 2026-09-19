@@ -43,7 +43,7 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
     const message = `Namaste Park Dental Clinic (Dr. Pulkit & Dr. Nidhee Sharma),\n\nI would like to book a dental consultation.\n\n📋 *Patient Details:*\n• *Name:* ${formData.patientName}\n• *Phone:* ${formData.phone}${formData.email ? `\n• *Email:* ${formData.email}` : ''}\n• *Treatment:* ${treatmentName}\n• *Preferred Date:* ${formData.date}\n• *Time Slot:* ${formData.timeSlot}${formData.notes ? `\n• *Notes/Symptoms:* ${formData.notes}` : ''}\n\nPlease confirm my appointment booking. Thank you!`;
 
     const encoded = encodeURIComponent(message);
-    const url = `https://wa.me/918287417016?text=${encoded}`;
+    const url = `https://wa.me/919929666041?text=${encoded}`;
     setWhatsappUrl(url);
 
     // Open WhatsApp directly in new tab
@@ -121,12 +121,12 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
               <div className="p-4 bg-sky-50/60 rounded-2xl border border-sky-100 text-xs text-slate-700 text-left space-y-1 max-w-sm mx-auto font-normal">
                 <p className="font-bold text-[#0a2540]">Clinic Location:</p>
                 <p>{CLINIC_INFO.addressShort}</p>
-                <p className="text-slate-500 pt-1">Your details have been sent to Park Dental Clinic on WhatsApp (+91 8287417016).</p>
+                <p className="text-slate-500 pt-1">Your details have been sent to Park Dental Clinic on WhatsApp (+91 9929666041).</p>
               </div>
 
               <div className="pt-2 flex flex-col sm:flex-row gap-3 justify-center max-w-sm mx-auto">
                 <a
-                  href={whatsappUrl || `https://wa.me/918287417016?text=Hello%20Park%20Dental%20Clinic%2C%20I%20would%20like%20to%20confirm%20my%20dental%20appointment.`}
+                  href={whatsappUrl || `https://wa.me/919929666041?text=Hello%20Park%20Dental%20Clinic%2C%20I%20would%20like%20to%20confirm%20my%20dental%20appointment.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#25D366] hover:bg-[#20bd5a] text-white px-5 py-3 rounded-xl font-bold text-xs shadow-md transition-all flex items-center justify-center gap-2"

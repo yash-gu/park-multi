@@ -73,7 +73,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenCall, onOpenQui
                 className="border-2 border-[#006970] text-[#006970] hover:bg-teal-50 px-6 py-3.5 rounded-xl font-bold text-sm transition-all flex items-center justify-center gap-2 bg-white shadow-2xs hover:border-[#005258]"
               >
                 <Phone className="w-4 h-4" />
-                <span>Emergency: +91 8287417016</span>
+                <span>Emergency: +91 9929666041</span>
               </button>
 
               {onOpenQuiz && (
@@ -122,6 +122,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenCall, onOpenQui
                 <img
                   src={CLINIC_INFO.heroImageUrl}
                   alt="Park Dental Clinic Studio Jaipur"
+                  fetchPriority="high"
+                  decoding="async"
                   className="w-full h-full object-cover opacity-90 transition-transform duration-700 hover:scale-105"
                   referrerPolicy="no-referrer"
                 />

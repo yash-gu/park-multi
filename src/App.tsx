@@ -178,7 +178,7 @@ export default function App() {
       </div>
 
       {/* Floating Hover WhatsApp Button for Direct Doctor Contact */}
-      <WhatsAppButton phoneNumber="918287417016" doctorName="Park Dental Clinic" />
+      <WhatsAppButton phoneNumber="919929666041" doctorName="Park Dental Clinic" />
 
       {/* Modals */}
       <AppointmentModal

@@ -89,6 +89,8 @@ export const SmileTransformationGallery: React.FC<GalleryProps> = ({ onOpenBooki
               <img
                 src={activeCase.image}
                 alt={`${activeCase.title} Result`}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
               />
@@ -172,7 +174,7 @@ export const SmileTransformationGallery: React.FC<GalleryProps> = ({ onOpenBooki
                 }`}
               >
                 <div className="aspect-[4/3] rounded-xl overflow-hidden mb-2.5 bg-slate-100 border border-slate-100 relative group">
-                  <img src={c.image} alt={c.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer" />
+                  <img src={c.image} alt={c.title} loading="lazy" decoding="async" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer" />
                   {isSelected && (
                     <div className="absolute top-1.5 right-1.5 bg-[#00478d] text-white p-1 rounded-full shadow-xs">
                       <Sparkles className="w-3 h-3" />

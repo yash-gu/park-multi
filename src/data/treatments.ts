@@ -401,7 +401,7 @@ export const CLINIC_INFO = {
   hours: 'Mon - Sun: 11:00 AM - 05:00 PM',
   hoursShort: 'Mon-Sun: 11:00 AM - 5:00 PM',
   phone: '+91-141-2356789',
-  mobile: '+91-82874-17016',
+  mobile: '+91-99296-66041',
   email: 'info@parkdentaljaipur.com',
   logoUrl: '/logo.jpeg',
   heroImageUrl: '/image copy.png',
