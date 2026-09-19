@@ -8,19 +8,19 @@ interface LocationSectionProps {
 
 export const LocationSection: React.FC<LocationSectionProps> = ({ onOpenCall }) => {
   return (
-    <section id="location" className="py-20 lg:py-28 bg-[#f8fafc]">
+    <section id="location" className="py-12 lg:py-16 bg-[#f8fafc]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
         {/* Container Box */}
-        <div className="bg-white rounded-3xl overflow-hidden shadow-[0_12px_40px_-10px_rgba(10,37,64,0.08)] border border-slate-200/90 grid grid-cols-1 lg:grid-cols-2">
+        <div className="bg-white rounded-2xl overflow-hidden shadow-[0_12px_40px_-10px_rgba(10,37,64,0.08)] border border-slate-200/90 grid grid-cols-1 lg:grid-cols-2">
           
           {/* Left Column: Details */}
-          <div className="p-8 sm:p-12 space-y-8 flex flex-col justify-between">
+          <div className="p-5 sm:p-5 space-y-8 flex flex-col justify-between">
             <div className="space-y-4">
               <div className="inline-flex items-center gap-2 bg-teal-50 border border-teal-200/80 text-[#006970] px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase shadow-2xs">
                 <span>Easy Accessibility & Dedicated Parking</span>
               </div>
-              <h2 className="font-outfit text-3xl sm:text-4xl font-extrabold text-[#0a2540] tracking-tight">
+              <h2 className="font-outfit text-3xl sm:text-3xl font-extrabold text-[#0a2540] tracking-tight">
                 Visit Our Clinic
               </h2>
               <p className="text-slate-600 text-sm sm:text-base leading-relaxed font-normal">

@@ -19,11 +19,11 @@ export const PatientComfortSection: React.FC<PatientComfortProps> = ({ onOpenBoo
   };
 
   return (
-    <section className="py-20 bg-gradient-to-b from-white to-[#f8fafc] border-y border-slate-100">
+    <section className="py-12 bg-gradient-to-b from-white to-[#f8fafc] border-y border-slate-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
         {/* Banner Card */}
-        <div className="bg-gradient-to-br from-[#0a2540] via-[#00478d] to-[#005fb8] text-white rounded-3xl p-8 sm:p-12 shadow-[0_15px_40px_-10px_rgba(10,37,64,0.3)] relative overflow-hidden">
+        <div className="bg-gradient-to-br from-[#0a2540] via-[#00478d] to-[#005fb8] text-white rounded-2xl p-5 sm:p-5 shadow-[0_15px_40px_-10px_rgba(10,37,64,0.3)] relative overflow-hidden">
           
           {/* Subtle Ambient Decorative Circles */}
           <div className="absolute top-0 right-0 w-96 h-96 bg-sky-400/15 rounded-full blur-3xl pointer-events-none" />
@@ -35,7 +35,7 @@ export const PatientComfortSection: React.FC<PatientComfortProps> = ({ onOpenBoo
               <span>Empathy & Gentle Care</span>
             </div>
 
-            <h2 className="font-outfit text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-white mb-4 tracking-tight">
+            <h2 className="font-outfit text-3xl sm:text-3xl lg:text-3xl font-extrabold leading-tight text-white mb-4 tracking-tight">
               We Ease Your Dental Anxiety with <span className="text-sky-300">Gentle Hands</span> & Complete Transparency.
             </h2>
 

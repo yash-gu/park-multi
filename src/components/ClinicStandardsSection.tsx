@@ -3,7 +3,7 @@ import { ShieldCheck, Award, Sparkles, Microchip, Flame, Droplets, Wind, CheckCi
 
 export const ClinicStandardsSection: React.FC = () => {
   return (
-    <section id="safety-standards" className="py-20 lg:py-24 bg-white border-t border-slate-200/80">
+    <section id="safety-standards" className="py-12 lg:py-12 bg-white border-t border-slate-200/80">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
         {/* Section Header */}
@@ -12,7 +12,7 @@ export const ClinicStandardsSection: React.FC = () => {
             <ShieldCheck className="w-4 h-4 text-[#006970]" />
             <span>Zero Cross-Contamination Guarantee</span>
           </div>
-          <h2 className="font-outfit text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#0a2540] tracking-tight">
+          <h2 className="font-outfit text-3xl sm:text-3xl lg:text-3xl font-extrabold text-[#0a2540] tracking-tight">
             Hospital-Grade Sterilization & Clinical Safety
           </h2>
           <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">

@@ -86,7 +86,7 @@ export const OralCareSection: React.FC<OralCareSectionProps> = ({ onOpenBooking,
   };
 
   return (
-    <section id="oral-care" className="py-16 lg:py-24 bg-white relative overflow-hidden border-t border-slate-100">
+    <section id="oral-care" className="py-16 lg:py-12 bg-white relative overflow-hidden border-t border-slate-100">
       {/* Decorative background accent blobs */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[#006970]/5 rounded-full blur-3xl pointer-events-none -mr-32 -mt-32" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#00478d]/5 rounded-full blur-3xl pointer-events-none -ml-32 -mb-32" />
@@ -98,7 +98,7 @@ export const OralCareSection: React.FC<OralCareSectionProps> = ({ onOpenBooking,
             <HeartPulse className="w-4 h-4 text-[#006970]" />
             <span>Preventive Wellness & Guidelines</span>
           </div>
-          <h2 className="font-outfit text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#0a2540] tracking-tight">
+          <h2 className="font-outfit text-3xl sm:text-3xl lg:text-3xl font-extrabold text-[#0a2540] tracking-tight">
             Complete Teeth Care Guide for Kids & Families
           </h2>
           <p className="mt-3.5 text-slate-600 text-sm sm:text-base leading-relaxed font-normal">
@@ -246,7 +246,7 @@ export const OralCareSection: React.FC<OralCareSectionProps> = ({ onOpenBooking,
         </div>
 
         {/* Daily 4-Step Hygiene Habit Routine Widget */}
-        <div className="bg-gradient-to-r from-[#0a2540] via-[#00478d] to-[#006970] rounded-3xl p-6 sm:p-8 text-white shadow-xl relative overflow-hidden">
+        <div className="bg-gradient-to-r from-[#0a2540] via-[#00478d] to-[#006970] rounded-2xl p-6 sm:p-5 text-white shadow-xl relative overflow-hidden">
           <div className="absolute top-0 right-0 w-80 h-80 bg-white/5 rounded-full blur-2xl pointer-events-none" />
 
           <div className="relative z-10">

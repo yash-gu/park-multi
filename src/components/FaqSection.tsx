@@ -15,7 +15,7 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ onOpenBooking, onOpenCal
   };
 
   return (
-    <section className="py-20 bg-white border-t border-slate-100">
+    <section className="py-12 bg-white border-t border-slate-100">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         
         {/* Section Header */}
@@ -25,7 +25,7 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ onOpenBooking, onOpenCal
             <span>Clear Answers & Pricing Guidance</span>
           </div>
 
-          <h2 className="font-outfit text-3xl sm:text-4xl font-extrabold text-[#0a2540] tracking-tight">
+          <h2 className="font-outfit text-3xl sm:text-3xl font-extrabold text-[#0a2540] tracking-tight">
             Frequently Asked Patient Questions
           </h2>
 
@@ -76,7 +76,7 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ onOpenBooking, onOpenCal
         </div>
 
         {/* Still Have Questions Box */}
-        <div className="mt-12 p-6 sm:p-8 rounded-3xl bg-[#f8fafc] border border-slate-200/90 text-center space-y-4 shadow-xs">
+        <div className="mt-12 p-6 sm:p-5 rounded-2xl bg-[#f8fafc] border border-slate-200/90 text-center space-y-4 shadow-xs">
           <h4 className="font-outfit text-xl font-bold text-[#0a2540]">
             Have a question not answered here?
           </h4>

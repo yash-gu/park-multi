@@ -49,7 +49,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking, onOpenCall, onSea
         </a>
 
         {/* Desktop Nav Links */}
-        <div className="hidden lg:flex items-center gap-7">
+        <div className="hidden lg:flex items-center gap-5">
           <a
             href="#services"
             className="text-slate-700 hover:text-[#00478d] font-semibold text-sm transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#00478d] hover:after:w-full after:transition-all"

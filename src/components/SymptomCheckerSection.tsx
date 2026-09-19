@@ -105,7 +105,7 @@ export const SymptomCheckerSection: React.FC<SymptomCheckerProps> = ({ onOpenBoo
   const [selectedSymptom, setSelectedSymptom] = useState<Symptom>(SYMPTOMS[0]);
 
   return (
-    <section id="symptom-checker" className="py-20 lg:py-28 bg-[#f8fafc] border-t border-slate-200/80">
+    <section id="symptom-checker" className="py-12 lg:py-16 bg-[#f8fafc] border-t border-slate-200/80">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
         {/* Section Header */}
@@ -114,7 +114,7 @@ export const SymptomCheckerSection: React.FC<SymptomCheckerProps> = ({ onOpenBoo
             <Stethoscope className="w-4 h-4 text-[#006970]" />
             <span>Interactive Dental Triage & Care Finder</span>
           </div>
-          <h2 className="font-outfit text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#0a2540] tracking-tight">
+          <h2 className="font-outfit text-3xl sm:text-3xl lg:text-3xl font-extrabold text-[#0a2540] tracking-tight">
             Not Sure What You Need? Check Your Symptoms
           </h2>
           <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
@@ -123,7 +123,7 @@ export const SymptomCheckerSection: React.FC<SymptomCheckerProps> = ({ onOpenBoo
         </div>
 
         {/* 2-Column Symptom Triage Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
           
           {/* Left Column: Symptom Selector Buttons (5 cols) */}
           <div className="lg:col-span-5 space-y-2.5">
@@ -162,7 +162,7 @@ export const SymptomCheckerSection: React.FC<SymptomCheckerProps> = ({ onOpenBoo
           </div>
 
           {/* Right Column: Detailed Diagnosis & Specialist Care Card (7 cols) */}
-          <div className="lg:col-span-7 bg-white rounded-3xl p-6 sm:p-8 lg:p-9 border border-slate-200/90 shadow-[0_12px_35px_-8px_rgba(10,37,64,0.08)] space-y-6">
+          <div className="lg:col-span-7 bg-white rounded-2xl p-6 sm:p-5 lg:p-9 border border-slate-200/90 shadow-[0_12px_35px_-8px_rgba(10,37,64,0.08)] space-y-6">
             
             {/* Header info */}
             <div className="flex flex-wrap items-center justify-between gap-3 pb-5 border-b border-slate-100">

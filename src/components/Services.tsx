@@ -36,7 +36,7 @@ export const Services: React.FC<ServicesProps> = ({
   }, [activeCategory, searchQuery]);
 
   return (
-    <section id="services" className="py-20 lg:py-28 bg-[#f8fafc] border-t border-slate-100">
+    <section id="services" className="py-12 lg:py-16 bg-[#f8fafc] border-t border-slate-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
         {/* Section Header */}
@@ -46,7 +46,7 @@ export const Services: React.FC<ServicesProps> = ({
             <span>Comprehensive Dental Care</span>
           </div>
           
-          <h2 className="font-outfit text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#0a2540] tracking-tight">
+          <h2 className="font-outfit text-3xl sm:text-3xl lg:text-3xl font-extrabold text-[#0a2540] tracking-tight">
             Multispeciality Dental Services
           </h2>
           
@@ -165,7 +165,7 @@ export const Services: React.FC<ServicesProps> = ({
 
         {/* Grid Layout of Treatment Cards */}
         {filteredTreatments.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-5">
             {filteredTreatments.map((treatment) => (
               <TreatmentCard
                 key={treatment.id}
@@ -176,7 +176,7 @@ export const Services: React.FC<ServicesProps> = ({
             ))}
           </div>
         ) : (
-          <div className="bg-white p-12 rounded-3xl border border-slate-200 text-center max-w-md mx-auto my-8 space-y-4 shadow-sm">
+          <div className="bg-white p-5 rounded-2xl border border-slate-200 text-center max-w-md mx-auto my-8 space-y-4 shadow-sm">
             <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto text-slate-400">
               <Filter className="w-6 h-6" />
             </div>

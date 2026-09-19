@@ -8,7 +8,7 @@ interface TestimonialsProps {
 
 export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenBooking }) => {
   return (
-    <section className="py-20 lg:py-28 bg-[#f8fafc] border-t border-slate-100">
+    <section className="py-12 lg:py-16 bg-[#f8fafc] border-t border-slate-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
         {/* Section Header */}
@@ -18,7 +18,7 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenBooking
             <span>Real Jaipur Smiles</span>
           </div>
 
-          <h2 className="font-outfit text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#0a2540] tracking-tight">
+          <h2 className="font-outfit text-3xl sm:text-3xl lg:text-3xl font-extrabold text-[#0a2540] tracking-tight">
             Loved by Patients Across Jaipur
           </h2>
 

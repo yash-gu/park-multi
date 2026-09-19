@@ -14,7 +14,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking, onOpenCall }) => 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
         {/* 3-Column Footer Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-5 mb-12">
           
           {/* Column 1: Clinic Overview */}
           <div className="space-y-6">

@@ -72,7 +72,7 @@ export const SmileTransformationGallery: React.FC<GalleryProps> = ({ onOpenBooki
             <Sparkles className="w-4 h-4 text-[#006970]" />
             <span>Case Studies Gallery</span>
           </div>
-          <h2 className="font-outfit text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#0a2540] tracking-tight">
+          <h2 className="font-outfit text-3xl sm:text-3xl lg:text-3xl font-extrabold text-[#0a2540] tracking-tight">
             Our Successful Treatments
           </h2>
           <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
@@ -81,7 +81,7 @@ export const SmileTransformationGallery: React.FC<GalleryProps> = ({ onOpenBooki
         </div>
 
         {/* Interactive Case Showcase Card */}
-        <div className="bg-white rounded-3xl p-5 sm:p-8 lg:p-10 border border-slate-200/90 shadow-[0_12px_40px_-8px_rgba(10,37,64,0.08)] grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-12 items-center mb-10">
+        <div className="bg-white rounded-2xl p-5 sm:p-5 lg:p-6 border border-slate-200/90 shadow-[0_12px_40px_-8px_rgba(10,37,64,0.08)] grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-5 items-center mb-10">
           
           {/* Left Column: Featured Image (7 cols) */}
           <div className="lg:col-span-7">

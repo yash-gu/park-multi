@@ -8,14 +8,14 @@ export const AboutSection: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
         {/* Top Header */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center mb-16">
           <div className="space-y-6">
             <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-teal-50 border border-teal-200/80 text-[#006970] rounded-full text-xs font-bold uppercase tracking-wider shadow-2xs">
               <Award className="w-3.5 h-3.5" />
               <span>Pioneers in Oral Healthcare</span>
             </div>
 
-            <h2 className="font-outfit text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#0a2540] tracking-tight">
+            <h2 className="font-outfit text-3xl sm:text-3xl lg:text-3xl font-extrabold text-[#0a2540] tracking-tight">
               Clinical Excellence & Compassionate Dental Care
             </h2>
 
@@ -25,11 +25,11 @@ export const AboutSection: React.FC = () => {
 
             <div className="grid grid-cols-2 gap-4 pt-2">
               <div className="p-5 rounded-2xl bg-sky-50/60 border border-sky-100/90 shadow-2xs">
-                <span className="font-outfit text-3xl sm:text-4xl font-extrabold text-[#00478d] block">15,000+</span>
+                <span className="font-outfit text-3xl sm:text-3xl font-extrabold text-[#00478d] block">15,000+</span>
                 <span className="text-xs font-semibold text-slate-600 mt-1 block">Happy Patient Smiles</span>
               </div>
               <div className="p-5 rounded-2xl bg-teal-50/60 border border-teal-100/90 shadow-2xs">
-                <span className="font-outfit text-3xl sm:text-4xl font-extrabold text-[#006970] block">39+</span>
+                <span className="font-outfit text-3xl sm:text-3xl font-extrabold text-[#006970] block">39+</span>
                 <span className="text-xs font-semibold text-slate-600 mt-1 block">Specialist Procedures</span>
               </div>
             </div>
@@ -90,11 +90,11 @@ export const AboutSection: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 gap-5 max-w-4xl mx-auto">
             {DOCTORS.map((doc, idx) => (
               <div
                 key={idx}
-                className="bg-white rounded-3xl overflow-hidden border border-slate-200/90 shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_35px_-4px_rgba(0,71,141,0.12)] transition-all group flex flex-col justify-between"
+                className="bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_35px_-4px_rgba(0,71,141,0.12)] transition-all group flex flex-col justify-between"
               >
                 <div>
                   <div className="w-full relative aspect-video md:aspect-[21/9] bg-slate-200">
@@ -110,7 +110,7 @@ export const AboutSection: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="p-6 sm:p-7 space-y-3">
+                  <div className="p-6 sm:p-5 space-y-3">
                     <h4 className="font-outfit text-2xl font-bold text-[#0a2540]">{doc.name}</h4>
                     <p className="text-xs font-bold text-[#006970] uppercase tracking-wider">{doc.role}</p>
                     <p className="text-xs text-slate-500 font-semibold">{doc.qualification}</p>

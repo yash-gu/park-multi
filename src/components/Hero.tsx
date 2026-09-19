@@ -22,7 +22,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenCall, onOpenQui
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
         {/* Main Hero 2-Column Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-5 items-center">
           
           {/* Left Column (7 cols): Headline, Trust Badges, Value Props */}
           <div className="lg:col-span-7 space-y-6 text-left">
@@ -41,7 +41,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenCall, onOpenQui
             </div>
 
             {/* Bold Headline */}
-            <h1 className="font-outfit text-4xl sm:text-5xl lg:text-[3.6rem] font-extrabold text-[#0a2540] leading-[1.08] tracking-tight">
+            <h1 className="font-outfit text-3xl sm:text-3xl lg:text-[3.6rem] font-extrabold text-[#0a2540] leading-[1.08] tracking-tight">
               World-Class Dental Care for Your{' '}
               <span className="relative inline-block">
                 <span className="bg-gradient-to-r from-[#00478d] via-[#0284c7] to-[#006970] bg-clip-text text-transparent">
@@ -115,7 +115,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenCall, onOpenQui
           <div className="lg:col-span-5 relative">
             
             {/* Visual Container */}
-            <div className="relative rounded-3xl overflow-hidden border border-slate-200/90 shadow-[0_20px_50px_rgba(10,37,64,0.12)] bg-white">
+            <div className="relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-[0_20px_50px_rgba(10,37,64,0.12)] bg-white">
               
               {/* Top Banner Image with Gradient Overlay */}
               <div className="relative h-56 sm:h-64 overflow-hidden bg-slate-900">

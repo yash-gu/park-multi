@@ -87,7 +87,7 @@ export const CostEstimatorSection: React.FC<CostEstimatorProps> = ({ onOpenBooki
   const monthlyEmi = Math.round(avgCost / emiTenure);
 
   return (
-    <section id="cost-estimator" className="py-20 lg:py-28 bg-white border-t border-slate-200/80">
+    <section id="cost-estimator" className="py-12 lg:py-16 bg-white border-t border-slate-200/80">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         
         {/* Header */}
@@ -96,7 +96,7 @@ export const CostEstimatorSection: React.FC<CostEstimatorProps> = ({ onOpenBooki
             <Calculator className="w-4 h-4 text-[#00478d]" />
             <span>Transparent Pricing & 0% EMI Calculator</span>
           </div>
-          <h2 className="font-outfit text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#0a2540] tracking-tight">
+          <h2 className="font-outfit text-3xl sm:text-3xl lg:text-3xl font-extrabold text-[#0a2540] tracking-tight">
             Clear, Honest Pricing with Zero Hidden Costs
           </h2>
           <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
@@ -105,7 +105,7 @@ export const CostEstimatorSection: React.FC<CostEstimatorProps> = ({ onOpenBooki
         </div>
 
         {/* Main 2-Column Calculator Box */}
-        <div className="bg-slate-50/80 rounded-3xl p-6 sm:p-8 lg:p-10 border border-slate-200/90 shadow-[0_8px_30px_rgba(10,37,64,0.06)] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        <div className="bg-slate-50/80 rounded-2xl p-6 sm:p-5 lg:p-6 border border-slate-200/90 shadow-[0_8px_30px_rgba(10,37,64,0.06)] grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-5 items-center">
           
           {/* Left Column: Procedure Selector & Inclusions (7 cols) */}
           <div className="lg:col-span-7 space-y-6">
@@ -169,7 +169,7 @@ export const CostEstimatorSection: React.FC<CostEstimatorProps> = ({ onOpenBooki
           </div>
 
           {/* Right Column: Calculated Cost & 0% EMI Display (5 cols) */}
-          <div className="lg:col-span-5 bg-gradient-to-br from-[#0a2540] via-[#003870] to-[#00478d] text-white p-6 sm:p-8 rounded-3xl shadow-xl space-y-6 relative overflow-hidden">
+          <div className="lg:col-span-5 bg-gradient-to-br from-[#0a2540] via-[#003870] to-[#00478d] text-white p-6 sm:p-5 rounded-2xl shadow-xl space-y-6 relative overflow-hidden">
             
             {/* Ambient Background Glow */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-sky-400/20 rounded-full blur-3xl pointer-events-none" />
@@ -179,7 +179,7 @@ export const CostEstimatorSection: React.FC<CostEstimatorProps> = ({ onOpenBooki
                 <CreditCard className="w-4 h-4" />
                 Estimated Procedure Investment
               </span>
-              <div className="font-outfit text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+              <div className="font-outfit text-3xl sm:text-3xl font-extrabold text-white tracking-tight">
                 ₹{selectedProc.minCost.toLocaleString()} - ₹{selectedProc.maxCost.toLocaleString()}
               </div>
               <p className="text-xs text-sky-200/80 font-normal">

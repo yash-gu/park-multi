@@ -92,7 +92,7 @@ export const TreatmentCard: React.FC<TreatmentCardProps> = ({
   onBookTreatment,
 }) => {
   return (
-    <div className="bg-white p-6 sm:p-7 rounded-2xl border border-slate-200/90 shadow-[0_2px_12px_rgba(0,0,0,0.03)] hover:shadow-[0_14px_35px_-4px_rgba(0,71,141,0.12)] hover:border-sky-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group h-full">
+    <div className="bg-white p-6 sm:p-5 rounded-2xl border border-slate-200/90 shadow-[0_2px_12px_rgba(0,0,0,0.03)] hover:shadow-[0_14px_35px_-4px_rgba(0,71,141,0.12)] hover:border-sky-300 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group h-full">
       <div>
         {/* Top Header with Icon, Duration and Popular Badge */}
         <div className="flex items-start justify-between gap-2 mb-4">
