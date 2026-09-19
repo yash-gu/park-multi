@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Park Dental Multispeciality Clinic
 
-# Run and deploy your AI Studio app
+Welcome to the **Park Dental Multispeciality Clinic** website repository! This is a modern, responsive React application built with Vite and Tailwind CSS.
 
-This contains everything you need to run your app locally.
+## 🚀 Live Demo
 
-View your app in AI Studio: https://ai.studio/apps/7e62ddf7-2600-4054-b44b-945668485994
+This project is configured for seamless deployment on Vercel. Every push to the `main` branch automatically triggers a deployment.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **React 18**
+- **Vite**
+- **Tailwind CSS**
+- **Lucide Icons**
+- **TypeScript**
 
+## 💻 Run Locally
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Prerequisites:** Node.js
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yash-gu/park-multi.git
+   ```
+2. Navigate into the directory:
+   ```bash
+   cd park-multi
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and navigate to the URL provided in your terminal (usually `http://localhost:3000` or `http://localhost:5173`).
