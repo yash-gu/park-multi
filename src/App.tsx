@@ -6,7 +6,6 @@ import { AboutSection } from './components/AboutSection';
 import { PatientComfortSection } from './components/PatientComfortSection';
 import { SmileTransformationGallery } from './components/SmileTransformationGallery';
 import { SymptomCheckerSection } from './components/SymptomCheckerSection';
-import { CostEstimatorSection } from './components/CostEstimatorSection';
 import { ClinicStandardsSection } from './components/ClinicStandardsSection';
 import { OralCareSection } from './components/OralCareSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
@@ -107,10 +106,7 @@ export default function App() {
           onOpenCall={handleOpenCall}
         />
 
-        {/* Transparent Cost & 0% EMI Calculator */}
-        <CostEstimatorSection
-          onOpenBooking={(id) => handleOpenBooking(id)}
-        />
+
 
         {/* Hospital-Grade Sterilization & 4-Tier Patient Safety Protocols */}
         <ClinicStandardsSection />
