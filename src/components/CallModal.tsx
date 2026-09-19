@@ -62,21 +62,6 @@ export const CallModal: React.FC<CallModalProps> = ({ isOpen, onClose }) => {
               </span>
             </a>
 
-            <a
-              href={`tel:${CLINIC_INFO.phone}`}
-              className="w-full bg-slate-50 hover:bg-slate-100 text-slate-800 py-3.5 px-4 rounded-xl font-bold text-sm transition-all flex items-center justify-between border border-slate-200 group active:scale-98"
-            >
-              <div className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-[#006970]" />
-                <div className="text-left">
-                  <span className="block text-xs font-normal text-slate-500">Clinic Landline</span>
-                  <span className="font-bold">{CLINIC_INFO.phone}</span>
-                </div>
-              </div>
-              <span className="text-xs font-bold underline group-hover:translate-x-1 transition-transform">
-                Call Landline
-              </span>
-            </a>
 
             <a
               href={`https://wa.me/919929666041?text=Hello%20Park%20Dental%20Clinic%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation.`}
