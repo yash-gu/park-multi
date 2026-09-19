@@ -1,0 +1,6 @@
+{
+  "name": "Park Dental Multispeciality Clinic",
+  "description": "Premier multispeciality dental clinic in Jaipur providing comprehensive dental treatments across Orthodontics, Implants, Cosmetic, Oral Surgery, and General Dentistry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
