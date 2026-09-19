@@ -41,11 +41,11 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenBooking
         </div>
 
         {/* Reviews Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
           {TESTIMONIALS.map((review) => (
             <div
               key={review.id}
-              className="bg-white p-7 rounded-2xl border border-slate-200/90 shadow-xs hover:shadow-[0_10px_30px_rgba(10,37,64,0.08)] hover:border-sky-300 transition-all flex flex-col justify-between relative group"
+              className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-200/90 shadow-xs hover:shadow-[0_10px_30px_rgba(10,37,64,0.08)] hover:border-sky-300 transition-all flex flex-col justify-between relative group"
             >
               <Quote className="absolute top-6 right-6 w-10 h-10 text-slate-100 group-hover:text-[#00478d]/10 transition-colors pointer-events-none" />
 
