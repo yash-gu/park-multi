@@ -27,17 +27,27 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenCall, onOpenQui
           {/* Left Column (7 cols): Headline, Trust Badges, Value Props */}
           <div className="lg:col-span-7 space-y-6 text-left">
             
-            {/* Top Pill / Live Status */}
-            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 bg-white border border-sky-200 text-[#00478d] rounded-full text-xs font-bold shadow-xs hover:border-sky-300 transition-all">
-              <span className="flex h-2 w-2 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-              </span>
-              <span className="text-slate-800 font-semibold">Jaipur&apos;s Premier Multispeciality Dental Center</span>
-              <span className="text-slate-300">•</span>
-              <span className="text-[#006970] font-bold flex items-center gap-1">
-                <Award className="w-3.5 h-3.5" /> 5.0 Rated (500+ Reviews)
-              </span>
+            {/* Top Pill / Live Status & Video Link */}
+            <div className="flex flex-wrap items-center gap-2">
+              <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 bg-white border border-sky-200 text-[#00478d] rounded-full text-xs font-bold shadow-xs hover:border-sky-300 transition-all">
+                <span className="flex h-2 w-2 relative">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                </span>
+                <span className="text-slate-800 font-semibold">Jaipur&apos;s Premier Multispeciality Center</span>
+                <span className="text-slate-300">•</span>
+                <span className="text-[#006970] font-bold flex items-center gap-1">
+                  <Award className="w-3.5 h-3.5" /> 5.0 Rated (500+ Reviews)
+                </span>
+              </div>
+
+              <a
+                href="#video-stories"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#00478d] hover:bg-[#003870] text-white rounded-full text-xs font-bold shadow-xs transition-all hover:scale-105"
+              >
+                <span>🎥 Watch 6 Video Stories</span>
+                <span>→</span>
+              </a>
             </div>
 
             {/* Bold Headline */}

@@ -33,6 +33,16 @@ export const AboutSection: React.FC = () => {
                 <span className="text-xs font-semibold text-slate-600 mt-1 block">Specialist Procedures</span>
               </div>
             </div>
+
+            <div className="pt-2">
+              <a
+                href="#video-stories"
+                className="inline-flex items-center gap-2 text-xs font-bold text-[#00478d] hover:text-white bg-sky-50 hover:bg-[#00478d] border border-sky-200 px-4 py-2.5 rounded-xl transition-all shadow-2xs"
+              >
+                <span>🎥 Watch Video Stories: Doctors At Work & Patient Reviews</span>
+                <span>→</span>
+              </a>
+            </div>
           </div>
 
           {/* Key Advantages Grid */}

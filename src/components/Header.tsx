@@ -81,6 +81,12 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking, onOpenCall, onSea
             Doctors
           </a>
           <a
+            href="#video-stories"
+            className="text-[#00478d] bg-sky-50 hover:bg-sky-100 px-2.5 py-1 rounded-lg font-bold text-sm transition-colors flex items-center gap-1"
+          >
+            <span>🎥 Video Stories</span>
+          </a>
+          <a
             href="#location"
             className="text-slate-700 hover:text-[#00478d] font-semibold text-sm transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#00478d] hover:after:w-full after:transition-all"
           >
@@ -180,6 +186,14 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking, onOpenCall, onSea
               className="py-2.5 border-b border-slate-100 hover:text-[#00478d]"
             >
               Specialist Doctors (MDS / BDS)
+            </a>
+            <a
+              href="#video-stories"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="py-2.5 border-b border-slate-100 text-[#00478d] font-bold flex items-center justify-between"
+            >
+              <span>🎥 Video Reviews & Doctor Stories</span>
+              <span className="text-[10px] bg-sky-100 text-[#00478d] px-2 py-0.5 rounded-full font-bold">6 Videos</span>
             </a>
             <a
               href="#location"

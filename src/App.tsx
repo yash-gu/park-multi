@@ -8,6 +8,7 @@ import { SmileTransformationGallery } from './components/SmileTransformationGall
 import { SymptomCheckerSection } from './components/SymptomCheckerSection';
 import { ClinicStandardsSection } from './components/ClinicStandardsSection';
 import { OralCareSection } from './components/OralCareSection';
+import { VideoReelsSection } from './components/VideoReelsSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
 import { FaqSection } from './components/FaqSection';
 import { LocationSection } from './components/LocationSection';
@@ -125,6 +126,9 @@ export default function App() {
 
         {/* Clinical Excellence & Doctors Component */}
         <AboutSection />
+
+        {/* Real Patient & Student Video Reviews + Doctor Clinical Work */}
+        <VideoReelsSection onOpenBooking={(id) => handleOpenBooking(id)} />
 
         {/* Real Jaipur Patient Testimonials & Google Reviews */}
         <TestimonialsSection

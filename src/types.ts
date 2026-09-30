@@ -55,3 +55,19 @@ export interface FAQ {
   category: string;
 }
 
+export interface VideoReel {
+  id: string;
+  title: string;
+  category: 'workflow' | 'review' | 'tour' | 'student';
+  categoryLabel: string;
+  videoUrl: string;
+  thumbnailUrl: string;
+  duration: string;
+  doctorOrPatient: string;
+  subtitle: string;
+  description: string;
+  highlights: string[];
+  treatmentTag: string;
+  verified: boolean;
+}
+
